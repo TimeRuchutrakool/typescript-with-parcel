@@ -1,3 +1,4 @@
+// เป็น default type เลย ของ TS
 let firstName: any = "Mark";
 
 firstName = 123;
