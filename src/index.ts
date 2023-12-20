@@ -1,8 +1,8 @@
 /*type Filter = {
   <T>(array: T[], predicate: (item: T) => boolean): T[];
-};*/
+};*/ //!flexible กว่าตัวล่าง
 
-/*type Filter<T> = {
+/*type Filter<T> = { //!Type filter จะ มี generic type defined to it -> ตอนเรียกใช้ Filter ต้อง <string> อะไรงี้หลังมันด้วย
   (array: T[], predicate: (item: T) => boolean): T[];
 };*/
 
