@@ -18,7 +18,7 @@ class AdminUser extends User {
     name: string,
     email: string,
     age: number,
-    usersReporting: number
+    usersReporting: number //ถ้ารับ input เพิ่มต้อง super parent ด้วย แต่ถ้าไม่ได้รับเพิ่มก็ไม่ต้อง
   ) {
     super(name, email, age);
     this.usersReporting = usersReporting;
