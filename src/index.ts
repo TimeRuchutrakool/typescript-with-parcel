@@ -3,7 +3,7 @@ type Holidays = {
     reason: string;
 }[];
 
-abstract class Department {
+abstract class Department { //cannot be instantiate //ได้แค่เป็นที่ inherit
     protected abstract holidays: Holidays;
     protected constructor(protected name: string) {}
 }
