@@ -4,6 +4,6 @@ const addNumbers = (): void => {
 addNumbers();
 
 const throwNewError = (): never => {
-  throw new Error("Your program was terminated because of errors");
+  throw new Error("Your program was terminated because of errors"); //never เพราะ function มันไม่เคยจะจบ
 };
 throwNewError();
