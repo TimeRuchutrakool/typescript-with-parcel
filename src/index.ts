@@ -8,7 +8,7 @@ class Password {
   }
 }
 
-class RegisteredUser extends User, Password {}
+class RegisteredUser extends User, Password {} //sovled by interface
 
 enum AutomobileTypes {
   car = "car",
