@@ -27,3 +27,10 @@ interface Automobile<Type, Brand, Colors> {
   colors: Colors[];
   description: string;
 }
+
+const car: Automobile<AutomobileTypes, AutomobileBrands, AutomobileColors> = {
+  type: AutomobileTypes.car,
+  brand: AutomobileBrands.honda,
+  colors: [AutomobileColors.black,AutomobileColors.blue],
+  description:''
+}
